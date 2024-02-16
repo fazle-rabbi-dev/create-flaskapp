@@ -1,0 +1,15 @@
+{
+  "name": "flask-app-with-jinja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwindcss:build": "npx tailwindcss -i ./static/css/input.css -o ./static/css/globals.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
